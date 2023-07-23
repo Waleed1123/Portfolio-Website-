@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'poppins', sans-serif;  
+
+}
+
+.nav-items {
+  display: inline;
+}
+
+li{
+display: inline;
+margin-left: 10px;
+text-transform: uppercase;
+/* padding: 10px; */
+font-weight: bold;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px 20px 0 0; */
+  padding: 20px;
+  margin: 15px 15px 15px 15px;
+  text-align: right;
+  /* background-color: #663f3f; */
+
+}
+a.logo{
+  /* display: inline; */
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* text-shadow: 0.5px 0.5px 10px gray; */
+  margin: 30px 0px 0 20px;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+
+}
+li a:hover {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+a.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+}
+#title h1{
+  font-size: 2rem;
+  color:pink;
+  text-align: center;
+  margin: 20px auto;
+}
+.my-img {
+  border-radius: 50%;
+  width: 200px;
+  display: block;
+  margin-top: 200px;
+  /* margin: -150px; */
+}
+section#title {
+  text-align: center;
+
+}
+.img-div {
+  display: inline;
+  /* margin: 300px; */
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  background-color: rgb(0, 204, 204);
+}
